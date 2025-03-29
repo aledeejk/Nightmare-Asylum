@@ -15,7 +15,7 @@ D:/мехмат юфу/проектная деятельность/Репози�
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56479
+64561
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/мехмат юфу/проектная деятельность/Репози�
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26764]  Target information:
+Player connection [34052]  Target information:
 
-Player connection [26764]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 704977201 [EditorId] 704977201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34052]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2449870294 [EditorId] 2449870294 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26764] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34052] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34052] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018569 seconds.
-- Loaded All Assemblies, in  0.710 seconds
+Registered in 0.002500 seconds.
+- Loaded All Assemblies, in  0.411 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.590 seconds
-Domain Reload Profiling: 1296ms
-	BeginReloadAssembly (244ms)
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 766ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (282ms)
-		LoadAssemblies (239ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (277ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (253ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (591ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (358ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (517ms)
+		SetupLoadedEditorAssemblies (310ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,341 +136,212 @@ Domain Reload Profiling: 1296ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.381 seconds
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-виталий
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.250 seconds
-Domain Reload Profiling: 2624ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (942ms)
-		LoadAssemblies (669ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (522ms)
+		LoadAssemblies (354ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (451ms)
-			TypeCache.Refresh (240ms)
-				TypeCache.ScanAssembly (220ms)
-			BuildScriptInfoCaches (195ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1251ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (749ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1063ms)
+		SetupLoadedEditorAssemblies (635ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (768ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 150 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6355 unused Assets / (7.5 MB). Loaded Objects now: 6910.
-Memory consumption went from 146.7 MB to 139.1 MB.
-Total: 26.630500 ms (FindLiveObjects: 2.280200 ms CreateObjectMapping: 1.639800 ms MarkObjects: 12.537900 ms  DeleteObjects: 10.141200 ms)
+Unloading 6356 unused Assets / (7.5 MB). Loaded Objects now: 6912.
+Memory consumption went from 144.8 MB to 137.3 MB.
+Total: 15.562800 ms (FindLiveObjects: 0.911500 ms CreateObjectMapping: 1.311100 ms MarkObjects: 6.869600 ms  DeleteObjects: 6.468600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1073356.368914 seconds.
+  Time since last request: 1133884.947631 seconds.
   path: Assets/new asylum/nightmare asylum.blend
   artifactKey: Guid(ed542dfbaedcfc34ea37edf9a0917cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/new asylum/nightmare asylum.blend using Guid(ed542dfbaedcfc34ea37edf9a0917cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc06e2597d1d774e117e75539db45fd') in 3.9685967 seconds
+Start importing Assets/new asylum/nightmare asylum.blend using Guid(ed542dfbaedcfc34ea37edf9a0917cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc06e2597d1d774e117e75539db45fd') in 2.6757333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1381
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.262 seconds
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\мехмат юфу\проектная деятельность\Репозиторий\NA(worked)\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <20f98a04ac634cc8bf5f95425bb19bb9>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.249 seconds
-Domain Reload Profiling: 2514ms
-	BeginReloadAssembly (359ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (763ms)
-		LoadAssemblies (573ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (374ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (348ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1250ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1017ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (733ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6353 unused Assets / (7.5 MB). Loaded Objects now: 6960.
-Memory consumption went from 129.8 MB to 122.3 MB.
-Total: 15.696500 ms (FindLiveObjects: 1.161600 ms CreateObjectMapping: 1.299000 ms MarkObjects: 9.411600 ms  DeleteObjects: 3.822600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.943 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.905 seconds
-Domain Reload Profiling: 1849ms
-	BeginReloadAssembly (276ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (569ms)
-		LoadAssemblies (433ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (256ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (906ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (726ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (513ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6353 unused Assets / (7.8 MB). Loaded Objects now: 6963.
-Memory consumption went from 129.8 MB to 122.0 MB.
-Total: 12.701300 ms (FindLiveObjects: 0.867300 ms CreateObjectMapping: 0.926800 ms MarkObjects: 7.042500 ms  DeleteObjects: 3.862800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.170 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.171 seconds
-Domain Reload Profiling: 2337ms
-	BeginReloadAssembly (329ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (711ms)
-		LoadAssemblies (510ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (375ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (352ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1172ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (935ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (644ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6353 unused Assets / (7.5 MB). Loaded Objects now: 6966.
-Memory consumption went from 129.8 MB to 122.3 MB.
-Total: 13.740600 ms (FindLiveObjects: 0.879100 ms CreateObjectMapping: 1.003800 ms MarkObjects: 7.021300 ms  DeleteObjects: 4.834500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 2184.409851 seconds.
+  Time since last request: 1.042213 seconds.
   path: Assets/Materials/034ba4a2df30f74f710d8458ea26f302.jpg
   artifactKey: Guid(c5dcf722ed2bdf54c975218556e19daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/034ba4a2df30f74f710d8458ea26f302.jpg using Guid(c5dcf722ed2bdf54c975218556e19daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12cfaee76d3cb280b75bae5ac3283501') in 0.1366224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/photo_2024-11-29_19-49-56.jpg
-  artifactKey: Guid(d4e8d14433e4f594a9322b49052d9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/photo_2024-11-29_19-49-56.jpg using Guid(d4e8d14433e4f594a9322b49052d9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0d6c18062068c9ddfc02bfdf736713') in 0.0244249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Materials/a0edabfc0af79a591f30317984e3bc30.jpg
-  artifactKey: Guid(8d74bd81acf034046b7d8676e55e9fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/a0edabfc0af79a591f30317984e3bc30.jpg using Guid(8d74bd81acf034046b7d8676e55e9fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e1904b7c741122542fe95551a74d29') in 0.0299049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Materials/текстура подушки.jpg
-  artifactKey: Guid(970bcc7ff009c93438bcf2fb4a5c0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/текстура подушки.jpg using Guid(970bcc7ff009c93438bcf2fb4a5c0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2380a0dbb95e870c143e9da425d8a237') in 0.0391556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Materials/e0ebef3e5be6d5646c3d05590e9ed7f3.jpg
-  artifactKey: Guid(96c9c20cb83876f43aec355afb768ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/e0ebef3e5be6d5646c3d05590e9ed7f3.jpg using Guid(96c9c20cb83876f43aec355afb768ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd355cf6c7369a63c0ba76c9675d8fa7f') in 0.028483 seconds
+Start importing Assets/Materials/034ba4a2df30f74f710d8458ea26f302.jpg using Guid(c5dcf722ed2bdf54c975218556e19daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12cfaee76d3cb280b75bae5ac3283501') in 0.0397427 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Materials/marble-tiles-10-big-slabs-new-madrid-silver-02-2-b.jpg
-  artifactKey: Guid(20e35497ce34cf8479a6ddd562371c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/marble-tiles-10-big-slabs-new-madrid-silver-02-2-b.jpg using Guid(20e35497ce34cf8479a6ddd562371c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '013fa9caa598da973e4800965291b13a') in 0.0336307 seconds
+  path: Assets/Materials/текстура матраса.png
+  artifactKey: Guid(d5ba59730fcbaee4b9c6af86d402bb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/текстура матраса.png using Guid(d5ba59730fcbaee4b9c6af86d402bb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '267a4755b0dda605b55464ecec6df1bb') in 0.019457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/photo_2024-11-29_19-49-56.jpg
+  artifactKey: Guid(d4e8d14433e4f594a9322b49052d9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/photo_2024-11-29_19-49-56.jpg using Guid(d4e8d14433e4f594a9322b49052d9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0d6c18062068c9ddfc02bfdf736713') in 0.0218162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/keramogranit_1051028_recupera_mix_grafite_40x40_cir_ceramiche_373.jpg
+  artifactKey: Guid(76cbcc3af4e584344b818765f6a2875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/keramogranit_1051028_recupera_mix_grafite_40x40_cir_ceramiche_373.jpg using Guid(76cbcc3af4e584344b818765f6a2875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9c12d8b316932cda38a6c6314c987f3') in 0.0204207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/fc254bd30e87479c835b47459c41f799.jpg
+  artifactKey: Guid(74fdde38c02be2149b9a6687fc4324d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fc254bd30e87479c835b47459c41f799.jpg using Guid(74fdde38c02be2149b9a6687fc4324d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '666772faa9d65c416ecce4312ee3f0f0') in 0.0237806 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
+  path: Assets/Materials/CL-15_1.jpg
+  artifactKey: Guid(9da9273d6afdeb74bbe7941b2d863a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CL-15_1.jpg using Guid(9da9273d6afdeb74bbe7941b2d863a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4dc4acdff08d437514baeb881e373c7') in 0.0178213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/1657283527_63-amiel-club-p-tekstura-potolka-besshovnaya-interer-krasi-67.jpg
+  artifactKey: Guid(56d86cc1e56824749819fb2afd40c2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/1657283527_63-amiel-club-p-tekstura-potolka-besshovnaya-interer-krasi-67.jpg using Guid(56d86cc1e56824749819fb2afd40c2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7201b560153011f559de1f5aee85efdc') in 0.0160717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/грязные полы.jpg
+  artifactKey: Guid(10aa4770d4400ac4e970cbac9e97a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/грязные полы.jpg using Guid(10aa4770d4400ac4e970cbac9e97a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e59c90da2040c1c39abb12bdf143a0') in 0.0197939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
   path: Assets/Materials/текстура кровати.png
   artifactKey: Guid(d4542a68e83f5bf49914d3e889325a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/текстура кровати.png using Guid(d4542a68e83f5bf49914d3e889325a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789d0d678782de4dd07cc719f9d08f0d') in 0.0217134 seconds
+Start importing Assets/Materials/текстура кровати.png using Guid(d4542a68e83f5bf49914d3e889325a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789d0d678782de4dd07cc719f9d08f0d') in 0.0179402 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Materials/photo_2024-11-07_22-09-44.jpg
-  artifactKey: Guid(ec0d38bf5f3ce9447b9f34bfb403e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/photo_2024-11-07_22-09-44.jpg using Guid(ec0d38bf5f3ce9447b9f34bfb403e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e7e5e517cd29793c38f8c4cbc7bc5bb') in 0.0258951 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/текустра двери.png
+  artifactKey: Guid(602dad14c8d480a4f8c99bb4e4c11b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/текустра двери.png using Guid(602dad14c8d480a4f8c99bb4e4c11b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cb7aa66e93bffed4db06ba7d5c5ed48') in 0.0216312 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Materials/текстура шкафа.jpg
-  artifactKey: Guid(103c068a6cffd2548969ea8f8163a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/текстура шкафа.jpg using Guid(103c068a6cffd2548969ea8f8163a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731e8a42e4e1d2b8f704a22eae69dcc9') in 0.0237481 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/текстура стекла.png
+  artifactKey: Guid(5582c54f7922a324898b895d0f6d8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/текстура стекла.png using Guid(5582c54f7922a324898b895d0f6d8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9458a353649448872f5f82233ffffdc') in 0.0172575 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
+  Time since last request: 0.000022 seconds.
   path: Assets/Materials/свет.mat
   artifactKey: Guid(eb3b0fc0c80e4e546bff9c2d24382a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/свет.mat using Guid(eb3b0fc0c80e4e546bff9c2d24382a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d345e6ab6260852b7faffa3c5c1e4e9') in 0.0730812 seconds
+Start importing Assets/Materials/свет.mat using Guid(eb3b0fc0c80e4e546bff9c2d24382a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d345e6ab6260852b7faffa3c5c1e4e9') in 0.0191427 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/907929-oboykin-as-creation-wood-n-stone-1.jpg
+  artifactKey: Guid(228a66d89ad6afe4b93d17d9690688f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/907929-oboykin-as-creation-wood-n-stone-1.jpg using Guid(228a66d89ad6afe4b93d17d9690688f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb5272119e41d68fff07b3c62336229f') in 0.017433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
   path: Assets/Materials/ручка двери.mat
   artifactKey: Guid(dac3fe2a2d8d9684ba1157c2dbba824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ручка двери.mat using Guid(dac3fe2a2d8d9684ba1157c2dbba824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69bb1443a7f805c9d5d1c62d091fddd') in 0.0274131 seconds
+Start importing Assets/Materials/ручка двери.mat using Guid(dac3fe2a2d8d9684ba1157c2dbba824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69bb1443a7f805c9d5d1c62d091fddd') in 0.0155934 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Materials/текстура тумбы.jpg
-  artifactKey: Guid(1da91e594c61d654c975e021473a5346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/текстура тумбы.jpg using Guid(1da91e594c61d654c975e021473a5346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4001c6eee6ea458afbb103a995aab0c6') in 0.0128243 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/текустура рамки окна.png
+  artifactKey: Guid(02759796690a7864a975fde7e6e033e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/текустура рамки окна.png using Guid(02759796690a7864a975fde7e6e033e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0078f5aa76009925f869c5db870e2207') in 0.0203165 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/текустура постельного.jpg
-  artifactKey: Guid(37041f09ceec9c848bcdecaf01acbd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/текустура постельного.jpg using Guid(37041f09ceec9c848bcdecaf01acbd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56cd694c843eff8f2c1cd5296c65dfbb') in 0.0329845 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/текстура стекла.mat
+  artifactKey: Guid(a194ef3d947a6184f89224a8b863bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/текстура стекла.mat using Guid(a194ef3d947a6184f89224a8b863bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f87180f893e24a17bcc84486bd90415') in 0.0202038 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/32254bdb72b2477224edbcfd2e6228d7.jpg
-  artifactKey: Guid(831638decea78d045b046f964f6878cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/32254bdb72b2477224edbcfd2e6228d7.jpg using Guid(831638decea78d045b046f964f6878cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd85d87213fd5f745f52c7085a98bd7bf') in 0.0274988 seconds
+  Time since last request: 4.076526 seconds.
+  path: Assets/new asylum/assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4441874a438446740683c2551d173ce8') in 0.0026507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/new asylum/assets/текстура шкафа.jpg
+  artifactKey: Guid(938cabd63472a114a91f78aab550a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/assets/текстура шкафа.jpg using Guid(938cabd63472a114a91f78aab550a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d58369c6be9852c31b63231d943aa6c') in 0.0211287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/new asylum/assets/текстура стойки регистрации.png
+  artifactKey: Guid(9855bffb7dd323c49b5c18cf83967310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/assets/текстура стойки регистрации.png using Guid(9855bffb7dd323c49b5c18cf83967310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03b66f64ec2ce7881189c754894dc0f6') in 0.0191583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
