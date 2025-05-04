@@ -15,7 +15,7 @@ D:/мехмат юфу/проектная деятельность/Репози�
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50716
+56681
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,14 +59,14 @@ D:/мехмат юфу/проектная деятельность/Репози�
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2564]  Target information:
+Player connection [19720]  Target information:
 
-Player connection [2564]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2955545716 [EditorId] 2955545716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19720]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 629993120 [EditorId] 629993120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2564]  * "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2955545716 [EditorId] 2955545716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19720]  * "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 629993120 [EditorId] 629993120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HOKP8FT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2564] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2564] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19720] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19720] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
@@ -93,43 +93,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003208 seconds.
-- Loaded All Assemblies, in  0.516 seconds
+Registered in 0.004311 seconds.
+- Loaded All Assemblies, in  0.443 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.478 seconds
-Domain Reload Profiling: 992ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 758ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (202ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (168ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (478ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,94 +138,148 @@ Domain Reload Profiling: 992ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.021 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.844 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-виталий
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.917 seconds
-Domain Reload Profiling: 1935ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (662ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (418ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (336ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (164ms)
-			BuildScriptInfoCaches (144ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (918ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (649ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (769ms)
+		SetupLoadedEditorAssemblies (541ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (537ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 150 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6458 unused Assets / (14.4 MB). Loaded Objects now: 6813.
-Memory consumption went from 147.0 MB to 132.5 MB.
-Total: 16.227300 ms (FindLiveObjects: 1.137800 ms CreateObjectMapping: 0.765600 ms MarkObjects: 6.812900 ms  DeleteObjects: 7.509300 ms)
+Unloading 6369 unused Assets / (7.4 MB). Loaded Objects now: 6925.
+Memory consumption went from 148.7 MB to 141.3 MB.
+Total: 9.342800 ms (FindLiveObjects: 0.659800 ms CreateObjectMapping: 0.401500 ms MarkObjects: 5.068600 ms  DeleteObjects: 3.212000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146319.877953 seconds.
-  path: Assets/new asylum/assets/details/key.fbx
-  artifactKey: Guid(3050cfa0ab89b214fa3f70d5955d1077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/new asylum/assets/details/key.fbx using Guid(3050cfa0ab89b214fa3f70d5955d1077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3632c719f8fda26885d469a6861a16e5') in 0.4040824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 177334.246358 seconds.
+  path: Assets/new asylum/assets/details/note1.blend
+  artifactKey: Guid(f44af34eaa7351347a51e5da81064968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/assets/details/note1.blend using Guid(f44af34eaa7351347a51e5da81064968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164f50c54a370189f2eddc34fdf9869d') in 0.3823054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/new asylum/assets/details/waredrobe(1).fbx
-  artifactKey: Guid(1d492a7efe98e8f49a6da2a92ad44c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/new asylum/assets/details/waredrobe(1).fbx using Guid(1d492a7efe98e8f49a6da2a92ad44c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78339e116b544a475e381782c583d301') in 0.1041101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+  Time since last request: 0.000021 seconds.
+  path: Assets/new asylum/assets/details/ladder.blend
+  artifactKey: Guid(c9ba222956c9e8c4991a461e1ea3ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/assets/details/ladder.blend using Guid(c9ba222956c9e8c4991a461e1ea3ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5b4255a320285052cc705f12f831ec6') in 0.149849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/new asylum/assets/details/reception desk.blend
-  artifactKey: Guid(63affba3f2e36ea43ad9bef202cdd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/new asylum/assets/details/reception desk.blend using Guid(63affba3f2e36ea43ad9bef202cdd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2930b2d839dde1992822fc19795cfe') in 0.1995277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+  Time since last request: 1.919595 seconds.
+  path: Assets/new asylum/nightmare asylum.blend
+  artifactKey: Guid(ed542dfbaedcfc34ea37edf9a0917cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new asylum/nightmare asylum.blend using Guid(ed542dfbaedcfc34ea37edf9a0917cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc06e2597d1d774e117e75539db45fd') in 2.6125106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1381
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2048.363123 seconds.
-  path: Assets/Audio/menu.mp3
-  artifactKey: Guid(992290b600372bb408e0d953b4e9c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/menu.mp3 using Guid(992290b600372bb408e0d953b4e9c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ddb088071b5aef203866c68e9cbb32') in 0.0497563 seconds
+  Time since last request: 1890.193821 seconds.
+  path: Assets/nurse/Ch16_1001_Diffuse.png
+  artifactKey: Guid(5e03365a0ab34bc4db9cbe348d113d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1001_Diffuse.png using Guid(5e03365a0ab34bc4db9cbe348d113d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10eeb650da16cae5b2873293dc2326ef') in 0.074104 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Audio/voice with music 1.mp3
-  artifactKey: Guid(6eaa1e564409dfe4b81b12f4ff096993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/voice with music 1.mp3 using Guid(6eaa1e564409dfe4b81b12f4ff096993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec4ff2e6787aa803b3d6db98d7531c8f') in 0.0213265 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/nurse/Ch16_1002_Diffuse.png
+  artifactKey: Guid(cfeb8a1a8d249a549bb1259743b9d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1002_Diffuse.png using Guid(cfeb8a1a8d249a549bb1259743b9d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1c84fdb15c7030552bd5280389904bb') in 0.0278109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nurse/Ch16_1001_Glossiness.png
+  artifactKey: Guid(28a510a4ee7fda24f93b1a5c70f28c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1001_Glossiness.png using Guid(28a510a4ee7fda24f93b1a5c70f28c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e162cd5f2b76ba1ce84aa8fe34449846') in 0.0227797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/nurse/Ch16_1002_Specular.png
+  artifactKey: Guid(e9f99616e5aa99a4a82b91d97358c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1002_Specular.png using Guid(e9f99616e5aa99a4a82b91d97358c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afaea2ad41e6755554b2733e94819207') in 0.0176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nurse/Ch16_1002_Glossiness.png
+  artifactKey: Guid(52f7626b78646d0439848efd81ffaab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1002_Glossiness.png using Guid(52f7626b78646d0439848efd81ffaab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '145c625c8f4a7cfb2183d046782e0a19') in 0.0232176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nurse/Ch16_1002_Normal.png
+  artifactKey: Guid(de3918f48e8d9d0498fe1ce30ea21629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1002_Normal.png using Guid(de3918f48e8d9d0498fe1ce30ea21629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b1c6f9b2c7aa4c41fe62243711b8e2') in 0.0186111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/nurse/Ch16_1001_Normal.png
+  artifactKey: Guid(e6b6faf94a509914da0e6b49d3479884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1001_Normal.png using Guid(e6b6faf94a509914da0e6b49d3479884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4054c4024bc340e832245de21d65a07f') in 0.0210119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/nurse/Ch16_1001_Specular.png
+  artifactKey: Guid(1f01cda636d2344418d28803034da4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1001_Specular.png using Guid(1f01cda636d2344418d28803034da4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a39e40d22bddeb37fcf403d41cd3e286') in 0.0102115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.828359 seconds.
+  path: Assets/nurse/Ch16_1002_Normal.png
+  artifactKey: Guid(de3918f48e8d9d0498fe1ce30ea21629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nurse/Ch16_1002_Normal.png using Guid(de3918f48e8d9d0498fe1ce30ea21629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ce6709e8c81e79d7d60c55b2574d9f') in 0.0394178 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
