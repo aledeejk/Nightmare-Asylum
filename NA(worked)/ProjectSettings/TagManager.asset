@@ -9,6 +9,10 @@ TagManager:
   - LockedDoor
   - Key1
   - LockedDoor1
+  - Points
+  - 'Exit '
+  - KeyExit
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
